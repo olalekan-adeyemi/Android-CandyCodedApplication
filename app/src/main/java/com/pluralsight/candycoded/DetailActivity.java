@@ -82,6 +82,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private void createShareIntent() {
 
+        //Method to share Candy
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.setType("text/plain");
 
